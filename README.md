@@ -22,3 +22,18 @@ To setup CI/CD pipeline we need 3 information from heroku
 2.Heroku API key = 96360ade-45e7-4270-8b76-07358b2de51d
 3.Heroku app name = ml-001-project
 
+
+docker --version
+docker status
+docker build -t <imagename>:<tagname> (BUILD DOCKER IMAGE)
+docker images (To build docker images)
+docker run -p 5000:5000 -e PORT=5000 <docker image id>
+docker ps (To check running container)
+docker stop <container id> (To stop running container)
+
+git add .
+git commit -m "sadaddwd"
+git push origin main
+
+
+
