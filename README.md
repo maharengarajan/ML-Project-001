@@ -15,6 +15,7 @@ git status (To find git status)
 git add app.py (To add py file into git)
 git add . (To add all files in git)
 git commit -m "message"
+git push origin main
 
 
 To setup CI/CD pipeline we need 3 information from heroku
@@ -31,9 +32,7 @@ docker run -p 5000:5000 -e PORT=5000 <docker image id>
 docker ps (To check running container)
 docker stop <container id> (To stop running container)
 
-git add .
-git commit -m "sadaddwd"
-git push origin main
+
 
 
 
