@@ -23,7 +23,7 @@ To setup CI/CD pipeline we need 3 information from heroku
 3.Heroku app name = ml-001-project
 
 
-docker --version
+1.docker --version
 docker status
 docker build -t <imagename>:<tagname> (BUILD DOCKER IMAGE)
 docker images (To build docker images)
@@ -34,6 +34,8 @@ docker stop <container id> (To stop running container)
 git add .
 git commit -m "sadaddwd"
 git push origin main
+
+
 
 
 
