@@ -32,6 +32,7 @@ docker run -p 5000:5000 -e PORT=5000 <docker image id>
 docker ps (To check running container)
 docker stop <container id> (To stop running container)
 
+-e . (To install our own packages in current directory,after setup.py file only we can run this command)
 
 
 
